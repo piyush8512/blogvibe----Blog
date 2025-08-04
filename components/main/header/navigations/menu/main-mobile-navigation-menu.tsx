@@ -1,6 +1,6 @@
 "use client";
 
-import  mainCategoryConfig  from "@/config/main/main-category-config";
+import { mainCategoryConfig } from "@/config/main";
 import { Disclosure, Transition } from "@headlessui/react";
 import { useRouter } from "next/navigation";
 import { ExoticComponent, FC, ReactNode } from "react";

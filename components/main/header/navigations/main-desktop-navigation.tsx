@@ -1,4 +1,4 @@
-// import { LoginMenu } from "@/components/login";
+import { LoginMenu } from "@/components/login";
 import { IconWrapperRounded, LogoIcon } from "@/icons";
 import Link from "next/link";
 import React from "react";
@@ -26,8 +26,7 @@ const MainDesktopNavigation = () => {
 
         {/* Login Menu */}
         <div className="flex flex-1 justify-end">
-          {/* <LoginMenu /> */}
-          Login Menu
+          <LoginMenu />
         </div>
       </nav>
     </>

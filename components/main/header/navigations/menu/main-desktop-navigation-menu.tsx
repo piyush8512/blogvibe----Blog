@@ -1,6 +1,6 @@
 "use client";
 
-import mainCategoryConfig from "@/config/main/main-category-config";
+import { mainCategoryConfig } from "@/config/main";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -34,7 +34,7 @@ const MainDesktopNavigationMenu = () => {
                   (category.slug === "/"
                     ? category.slug
                     : `/category/${category.slug}`),
-              }
+              },
             )}
           >
             <div className="relative">{category.title}</div>
